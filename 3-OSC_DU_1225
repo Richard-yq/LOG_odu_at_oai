@@ -1,0 +1,1185 @@
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3743
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 99
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 99
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 99
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 98
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 98
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 
+十二 25 14:24:30 date: 12/25/2023 time: 14:24:30
+十二 25 14:24:30 
+十二 25 14:24:30 mtss(posix): sw error:  ent: 001  inst: 000  proc id: 000 
+十二 25 14:24:30 file: /home/yen0224/new/small_cell_integration/l2/src/mt/ss_task.c line: 2455 errcode: 00446 errcls: ERRCLS_INT_PAR
+十二 25 14:24:30 errval: 00000  errdesc: Can not set exclusive affinity for the core
+十二 25 14:24:30 
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 99
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 Set priority 99
+十二 25 14:24:30 
+十二 25 14:24:30 Creating thread here /home/yen0224/new/small_cell_integration/l2/src/mt/mt_ss.c 3638
+十二 25 14:24:30 
+十二 25 14:24:30 INFO   -->  DU_APP : DU APP created and registered    to 1 sys task
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  EGTP : Initializing
+十二 25 14:24:30 INFO   -->  DU_APP : EGTP created and registered     to 2 sys task
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG  -->  SCTP : Initializing
+十二 25 14:24:30 INFO   -->  DU_APP : SCTP TAPA task created and registered to 6 sys task
+十二 25 14:24:30 INFO   -->  DU_APP : RLC UL TAPA task created and registered to    4 sys task
+十二 25 14:24:30 INFO   -->  DU_APP : SCH TAPA task created and registered to          5 sys task
+十二 25 14:24:30 INFO   -->  DU_APP : PHY stub slot indication TAPA task created and registered to 7 sys task
+十二 25 14:24:30 DEBUG   --> In function: readVnfCfg
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 INFO    --> [NFAPI] DU_APP: readVnfCfg() Completed
+十二 25 14:24:30 
+十二 25 14:24:30 ******************FINISH VNF_CFG_REQ **************************
+十二 25 14:24:30 
+十二 25 14:24:30 <MIB>
+十二 25 14:24:30     <systemFrameNumber>
+十二 25 14:24:30         000000
+十二 25 14:24:30     </systemFrameNumber>
+十二 25 14:24:30     <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+十二 25 14:24:30     <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+十二 25 14:24:30     <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+十二 25 14:24:30     <pdcch-ConfigSIB1>
+十二 25 14:24:30         <controlResourceSetZero>0</controlResourceSetZero>
+十二 25 14:24:30         <searchSpaceZero>0</searchSpaceZero>
+十二 25 14:24:30     </pdcch-ConfigSIB1>
+十二 25 14:24:30     <cellBarred><notBarred/></cellBarred>
+十二 25 14:24:30     <intraFreqReselection><notAllowed/></intraFreqReselection>
+十二 25 14:24:30     <spare>
+十二 25 14:24:30         0
+十二 25 14:24:30     </spare>
+十二 25 14:24:30 </MIB>
+十二 25 14:24:30 
+十二 25 14:24:30 encbufSize:3
+十二 25 14:24:30 0	0	c	
+十二 25 14:24:30 <BCCH-DL-SCH-Message>
+十二 25 14:24:30     <message>
+十二 25 14:24:30         <c1>
+十二 25 14:24:30             <systemInformationBlockType1>
+十二 25 14:24:30                 <cellSelectionInfo>
+十二 25 14:24:30                     <q-RxLevMin>-50</q-RxLevMin>
+十二 25 14:24:30                     <q-RxLevMinSUL>-50</q-RxLevMinSUL>
+十二 25 14:24:30                     <q-QualMin>-30</q-QualMin>
+十二 25 14:24:30                 </cellSelectionInfo>
+十二 25 14:24:30                 <cellAccessRelatedInfo>
+十二 25 14:24:30                     <plmn-IdentityList>
+十二 25 14:24:30                         <PLMN-IdentityInfo>
+十二 25 14:24:30                             <plmn-IdentityList>
+十二 25 14:24:30                                 <PLMN-IdentitY>
+十二 25 14:24:30                                     <mcc>
+十二 25 14:24:30                                         <MCC-MNC-Digit>3</MCC-MNC-Digit>
+十二 25 14:24:30                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
+十二 25 14:24:30                                         <MCC-MNC-Digit>1</MCC-MNC-Digit>
+十二 25 14:24:30                                     </mcc>
+十二 25 14:24:30                                     <mnc>
+十二 25 14:24:30                                         <MCC-MNC-Digit>4</MCC-MNC-Digit>
+十二 25 14:24:30                                         <MCC-MNC-Digit>8</MCC-MNC-Digit>
+十二 25 14:24:30                                         <MCC-MNC-Digit>0</MCC-MNC-Digit>
+十二 25 14:24:30                                     </mnc>
+十二 25 14:24:30                                 </PLMN-IdentitY>
+十二 25 14:24:30                             </plmn-IdentityList>
+十二 25 14:24:30                             <trackingAreaCode>
+十二 25 14:24:30                                 000000010000000000000000
+十二 25 14:24:30                             </trackingAreaCode>
+十二 25 14:24:30                             <ranac>1</ranac>
+十二 25 14:24:30                             <cellIdentity>
+十二 25 14:24:30                                 000000000000000000000000000000000001
+十二 25 14:24:30                             </cellIdentity>
+十二 25 14:24:30                             <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+十二 25 14:24:30                         </PLMN-IdentityInfo>
+十二 25 14:24:30                     </plmn-IdentityList>
+十二 25 14:24:30                 </cellAccessRelatedInfo>
+十二 25 14:24:30                 <connEstFailureControl>
+十二 25 14:24:30                     <connEstFailCount><n3/></connEstFailCount>
+十二 25 14:24:30                     <connEstFailOffsetValidity><s900/></connEstFailOffsetValidity>
+十二 25 14:24:30                     <connEstFailOffset>15</connEstFailOffset>
+十二 25 14:24:30                 </connEstFailureControl>
+十二 25 14:24:30                 <si-SchedulingInfo>
+十二 25 14:24:30                     <schedulingInfoList>
+十二 25 14:24:30                         <SchedulingInfo>
+十二 25 14:24:30                             <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
+十二 25 14:24:30                             <si-Periodicity><rf8/></si-Periodicity>
+十二 25 14:24:30                             <sib-MappingInfo>
+十二 25 14:24:30                                 <SIB-TypeInfo>
+十二 25 14:24:30                                     <type><sibType2/></type>
+十二 25 14:24:30                                     <valueTag>10</valueTag>
+十二 25 14:24:30                                 </SIB-TypeInfo>
+十二 25 14:24:30                             </sib-MappingInfo>
+十二 25 14:24:30                         </SchedulingInfo>
+十二 25 14:24:30                     </schedulingInfoList>
+十二 25 14:24:30                     <si-WindowLength><s5/></si-WindowLength>
+十二 25 14:24:30                 </si-SchedulingInfo>
+十二 25 14:24:30                 <servingCellConfigCommon>
+十二 25 14:24:30                     <downlinkConfigCommon>
+十二 25 14:24:30                         <frequencyInfoDL>
+十二 25 14:24:30                             <frequencyBandList>
+十二 25 14:24:30                                 <NR-MultiBandInfo>
+十二 25 14:24:30                                     <freqBandIndicatorNR>1</freqBandIndicatorNR>
+十二 25 14:24:30                                 </NR-MultiBandInfo>
+十二 25 14:24:30                             </frequencyBandList>
+十二 25 14:24:30                             <offsetToPointA>24</offsetToPointA>
+十二 25 14:24:30                             <scs-SpecificCarrierList>
+十二 25 14:24:30                                 <SCS-SpecificCarrier>
+十二 25 14:24:30                                     <offsetToCarrier>0</offsetToCarrier>
+十二 25 14:24:30                                     <subcarrierSpacing><kHz15/></subcarrierSpacing>
+十二 25 14:24:30                                     <carrierBandwidth>20</carrierBandwidth>
+十二 25 14:24:30                                 </SCS-SpecificCarrier>
+十二 25 14:24:30                             </scs-SpecificCarrierList>
+十二 25 14:24:30                         </frequencyInfoDL>
+十二 25 14:24:30                         <initialDownlinkBWP>
+十二 25 14:24:30                             <genericParameters>
+十二 25 14:24:30                                 <locationAndBandwidth>28875</locationAndBandwidth>
+十二 25 14:24:30                                 <subcarrierSpacing><kHz15/></subcarrierSpacing>
+十二 25 14:24:30                             </genericParameters>
+十二 25 14:24:30                             <pdcch-ConfigCommon>
+十二 25 14:24:30                                 <setup>
+十二 25 14:24:30                                     <controlResourceSetZero>0</controlResourceSetZero>
+十二 25 14:24:30                                     <searchSpaceZero>0</searchSpaceZero>
+十二 25 14:24:30                                     <commonSearchSpaceList>
+十二 25 14:24:30                                         <SearchSpace>
+十二 25 14:24:30                                             <searchSpaceId>1</searchSpaceId>
+十二 25 14:24:30                                             <controlResourceSetId>0</controlResourceSetId>
+十二 25 14:24:30                                             <monitoringSlotPeriodicityAndOffset>
+十二 25 14:24:30                                                 <sl1></sl1>
+十二 25 14:24:30                                             </monitoringSlotPeriodicityAndOffset>
+十二 25 14:24:30                                             <monitoringSymbolsWithinSlot>
+十二 25 14:24:30                                                 10000000000000
+十二 25 14:24:30                                             </monitoringSymbolsWithinSlot>
+十二 25 14:24:30                                             <nrofCandidates>
+十二 25 14:24:30                                                 <aggregationLevel1><n8/></aggregationLevel1>
+十二 25 14:24:30                                                 <aggregationLevel2><n4/></aggregationLevel2>
+十二 25 14:24:30                                                 <aggregationLevel4><n2/></aggregationLevel4>
+十二 25 14:24:30                                                 <aggregationLevel8><n1/></aggregationLevel8>
+十二 25 14:24:30                                                 <aggregationLevel16><n0/></aggregationLevel16>
+十二 25 14:24:30                                             </nrofCandidates>
+十二 25 14:24:30                                         </SearchSpace>
+十二 25 14:24:30                                     </commonSearchSpaceList>
+十二 25 14:24:30                                     <searchSpaceSIB1>1</searchSpaceSIB1>
+十二 25 14:24:30                                     <pagingSearchSpace>1</pagingSearchSpace>
+十二 25 14:24:30                                     <ra-SearchSpace>1</ra-SearchSpace>
+十二 25 14:24:30                                 </setup>
+十二 25 14:24:30                             </pdcch-ConfigCommon>
+十二 25 14:24:30                             <pdsch-ConfigCommon>
+十二 25 14:24:30                                 <setup>
+十二 25 14:24:30                                     <pdsch-TimeDomainAllocationList>
+十二 25 14:24:30                                         <PDSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                             <k0>0</k0>
+十二 25 14:24:30                                             <mappingType><typeA/></mappingType>
+十二 25 14:24:30                                             <startSymbolAndLength>66</startSymbolAndLength>
+十二 25 14:24:30                                         </PDSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                         <PDSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                             <k0>1</k0>
+十二 25 14:24:30                                             <mappingType><typeA/></mappingType>
+十二 25 14:24:30                                             <startSymbolAndLength>66</startSymbolAndLength>
+十二 25 14:24:30                                         </PDSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                     </pdsch-TimeDomainAllocationList>
+十二 25 14:24:30                                 </setup>
+十二 25 14:24:30                             </pdsch-ConfigCommon>
+十二 25 14:24:30                         </initialDownlinkBWP>
+十二 25 14:24:30                         <bcch-Config>
+十二 25 14:24:30                             <modificationPeriodCoeff><n16/></modificationPeriodCoeff>
+十二 25 14:24:30                         </bcch-Config>
+十二 25 14:24:30                         <pcch-Config>
+十二 25 14:24:30                             <defaultPagingCycle><rf256/></defaultPagingCycle>
+十二 25 14:24:30                             <nAndPagingFrameOffset>
+十二 25 14:24:30                                 <oneT></oneT>
+十二 25 14:24:30                             </nAndPagingFrameOffset>
+十二 25 14:24:30                             <ns><one/></ns>
+十二 25 14:24:30                             <firstPDCCH-MonitoringOccasionOfPO>
+十二 25 14:24:30                                 <sCS30KHZoneT-SCS15KHZhalfT>
+十二 25 14:24:30                                     <INTEGER>44</INTEGER>
+十二 25 14:24:30                                 </sCS30KHZoneT-SCS15KHZhalfT>
+十二 25 14:24:30                             </firstPDCCH-MonitoringOccasionOfPO>
+十二 25 14:24:30                         </pcch-Config>
+十二 25 14:24:30                     </downlinkConfigCommon>
+十二 25 14:24:30                     <uplinkConfigCommon>
+十二 25 14:24:30                         <frequencyInfoUL>
+十二 25 14:24:30                             <scs-SpecificCarrierList>
+十二 25 14:24:30                                 <SCS-SpecificCarrier>
+十二 25 14:24:30                                     <offsetToCarrier>0</offsetToCarrier>
+十二 25 14:24:30                                     <subcarrierSpacing><kHz15/></subcarrierSpacing>
+十二 25 14:24:30                                     <carrierBandwidth>20</carrierBandwidth>
+十二 25 14:24:30                                 </SCS-SpecificCarrier>
+十二 25 14:24:30                             </scs-SpecificCarrierList>
+十二 25 14:24:30                             <p-Max>23</p-Max>
+十二 25 14:24:30                         </frequencyInfoUL>
+十二 25 14:24:30                         <initialUplinkBWP>
+十二 25 14:24:30                             <genericParameters>
+十二 25 14:24:30                                 <locationAndBandwidth>28875</locationAndBandwidth>
+十二 25 14:24:30                                 <subcarrierSpacing><kHz15/></subcarrierSpacing>
+十二 25 14:24:30                             </genericParameters>
+十二 25 14:24:30                             <rach-ConfigCommon>
+十二 25 14:24:30                                 <setup>
+十二 25 14:24:30                                     <rach-ConfigGeneric>
+十二 25 14:24:30                                         <prach-ConfigurationIndex>16</prach-ConfigurationIndex>
+十二 25 14:24:30                                         <msg1-FDM><one/></msg1-FDM>
+十二 25 14:24:30                                         <msg1-FrequencyStart>82</msg1-FrequencyStart>
+十二 25 14:24:30                                         <zeroCorrelationZoneConfig>4</zeroCorrelationZoneConfig>
+十二 25 14:24:30                                         <preambleReceivedTargetPower>-74</preambleReceivedTargetPower>
+十二 25 14:24:30                                         <preambleTransMax><n200/></preambleTransMax>
+十二 25 14:24:30                                         <powerRampingStep><dB2/></powerRampingStep>
+十二 25 14:24:30                                         <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+十二 25 14:24:30                                     </rach-ConfigGeneric>
+十二 25 14:24:30                                     <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
+十二 25 14:24:30                                     <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+十二 25 14:24:30                                         <one><n8/></one>
+十二 25 14:24:30                                     </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+十二 25 14:24:30                                     <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+十二 25 14:24:30                                     <rsrp-ThresholdSSB>31</rsrp-ThresholdSSB>
+十二 25 14:24:30                                     <prach-RootSequenceIndex>
+十二 25 14:24:30                                         <l139>0</l139>
+十二 25 14:24:30                                     </prach-RootSequenceIndex>
+十二 25 14:24:30                                     <msg1-SubcarrierSpacing><kHz15/></msg1-SubcarrierSpacing>
+十二 25 14:24:30                                     <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+十二 25 14:24:30                                 </setup>
+十二 25 14:24:30                             </rach-ConfigCommon>
+十二 25 14:24:30                             <pusch-ConfigCommon>
+十二 25 14:24:30                                 <setup>
+十二 25 14:24:30                                     <pusch-TimeDomainAllocationList>
+十二 25 14:24:30                                         <PUSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                             <k2>4</k2>
+十二 25 14:24:30                                             <mappingType><typeA/></mappingType>
+十二 25 14:24:30                                             <startSymbolAndLength>66</startSymbolAndLength>
+十二 25 14:24:30                                         </PUSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                         <PUSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                             <k2>5</k2>
+十二 25 14:24:30                                             <mappingType><typeA/></mappingType>
+十二 25 14:24:30                                             <startSymbolAndLength>66</startSymbolAndLength>
+十二 25 14:24:30                                         </PUSCH-TimeDomainResourceAllocation>
+十二 25 14:24:30                                     </pusch-TimeDomainAllocationList>
+十二 25 14:24:30                                     <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
+十二 25 14:24:30                                     <p0-NominalWithGrant>-70</p0-NominalWithGrant>
+十二 25 14:24:30                                 </setup>
+十二 25 14:24:30                             </pusch-ConfigCommon>
+十二 25 14:24:30                             <pucch-ConfigCommon>
+十二 25 14:24:30                                 <setup>
+十二 25 14:24:30                                     <pucch-ResourceCommon>0</pucch-ResourceCommon>
+十二 25 14:24:30                                     <pucch-GroupHopping><neither/></pucch-GroupHopping>
+十二 25 14:24:30                                     <p0-nominal>-74</p0-nominal>
+十二 25 14:24:30                                 </setup>
+十二 25 14:24:30                             </pucch-ConfigCommon>
+十二 25 14:24:30                         </initialUplinkBWP>
+十二 25 14:24:30                         <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+十二 25 14:24:30                     </uplinkConfigCommon>
+十二 25 14:24:30                     <ssb-PositionsInBurst>
+十二 25 14:24:30                         <inOneGroup>
+十二 25 14:24:30                             11000000
+十二 25 14:24:30                         </inOneGroup>
+十二 25 14:24:30                     </ssb-PositionsInBurst>
+十二 25 14:24:30                     <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
+十二 25 14:24:30                     <tdd-UL-DL-ConfigurationCommon>
+十二 25 14:24:30                         <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+十二 25 14:24:30                         <pattern1>
+十二 25 14:24:30                             <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+十二 25 14:24:30                             <nrofDownlinkSlots>7</nrofDownlinkSlots>
+十二 25 14:24:30                             <nrofDownlinkSymbols>12</nrofDownlinkSymbols>
+十二 25 14:24:30                             <nrofUplinkSlots>2</nrofUplinkSlots>
+十二 25 14:24:30                             <nrofUplinkSymbols>1</nrofUplinkSymbols>
+十二 25 14:24:30                         </pattern1>
+十二 25 14:24:30                     </tdd-UL-DL-ConfigurationCommon>
+十二 25 14:24:30                     <ss-PBCH-BlockPower>0</ss-PBCH-BlockPower>
+十二 25 14:24:30                 </servingCellConfigCommon>
+十二 25 14:24:30             </systemInformationBlockType1>
+十二 25 14:24:30         </c1>
+十二 25 14:24:30     </message>
+十二 25 14:24:30 </BCCH-DL-SCH-Message>
+十二 25 14:24:30 
+十二 25 14:24:30 encbufSize: 88
+十二 25 14:24:30 7c	3	28	ffffffa3	40	61	31	1a	40	0	ffffff80	0	0	ffffff80	0	0	0	f	7f	0	0	20	28	12	10	0	3	0	0	0	26	ffffffce	19	62	ffffffbb	0	36	4	2	0	f	11	0	ffffff82	d	18	8	50	50	ffffff9b	ffffff88	ffffff82	ffffffc1	0	0	0	ffffff9e	ffffffae	70	ffffffcb	16	ffffffa0	ffffff80	52	48	a	67	ffffffcc	79	fffffff8	0	27	18	ffffff88	51	50	ffffff8c	25	40	ffffff80	ffffffec	4	16	3	ffffffe0	8	5e	0	
+十二 25 14:24:30 
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer<BCCH-BCH-Message>
+十二 25 14:24:30     <message>
+十二 25 14:24:30         <mib>
+十二 25 14:24:30             <systemFrameNumber>
+十二 25 14:24:30                 000000
+十二 25 14:24:30             </systemFrameNumber>
+十二 25 14:24:30             <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+十二 25 14:24:30             <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+十二 25 14:24:30             <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+十二 25 14:24:30             <pdcch-ConfigSIB1>
+十二 25 14:24:30                 <controlResourceSetZero>0</controlResourceSetZero>
+十二 25 14:24:30                 <searchSpaceZero>0</searchSpaceZero>
+十二 25 14:24:30             </pdcch-ConfigSIB1>
+十二 25 14:24:30             <cellBarred><notBarred/></cellBarred>
+十二 25 14:24:30             <intraFreqReselection><notAllowed/></intraFreqReselection>
+十二 25 14:24:30             <spare>
+十二 25 14:24:30                 0
+十二 25 14:24:30             </spare>
+十二 25 14:24:30         </mib>
+十二 25 14:24:30     </message>
+十二 25 14:24:30 </BCCH-BCH-Message>
+十二 25 14:24:30 
+十二 25 14:24:30 encbufSize:3
+十二 25 14:24:30 0	0	6	
+十二 25 14:24:30 
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 ****** Received initial VNF configs at DU APP ******
+十二 25 14:24:30 
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 DEBUG  -->  DU_APP : MAC VNF config sent
+十二 25 14:24:30 ****** Received initial configs at DU APP ******
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
+十二 25 14:24:30 INFO   -->  [NFAPI] case EVENT_MAC_VNF_CONFIG_REQ
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
+十二 25 14:24:30 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(1)
+十二 25 14:24:30 INFO  -->  [NFAPI] : Calling MacProcVnfCfgReq
+十二 25 14:24:30 INFO  -->  LWR_MAC : phyState :  0 in msgType : 6
+十二 25 14:24:30 INFO  -->  NFAPI : pnfState :  0
+十二 25 14:24:30 INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
+十二 25 14:24:30 INFO    --> RLC_DL : Starting SNSSAI Throughput timer
+十二 25 14:24:30 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(186)
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+十二 25 14:24:30 [NFAPI] VNF Interface --> nfapi_nr_vnf_start()
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(189)
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+十二 25 14:24:30 [NFAPI] VNF Interface --> Starting P5 VNF connection on port 62324
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
+十二 25 14:24:30 [NFAPI] VNF Interface --> P5 socket created... 4
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
+十二 25 14:24:30 [NFAPI] VNF Interface --> VNF Setting the SCTP_INITMSG
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
+十二 25 14:24:30 [NFAPI] VNF Interface --> IPV4 binding to port 62324
+十二 25 14:24:30 
+十二 25 14:24:30 [NFAPI] VNF Interface --> bind succeeded..4.
+十二 25 14:24:30 
+十二 25 14:24:30 [NFAPI] VNF Interface --> listen succeeded...
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(1)
+十二 25 14:24:30 INFO    --> RLC_DL : Starting UE Throughput timer
+十二 25 14:24:30 INFO    --> RLC_DL : Starting SNSSAI Throughput timer
+十二 25 14:24:30 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(189)
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
+十二 25 14:24:30 DEBUG   -->  RLC : RlcMiRlcConfigReq elmId(186)
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186 
+十二 25 14:24:30 DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
+十二 25 14:24:30 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+十二 25 14:24:30 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+十二 25 14:24:30 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+十二 25 14:24:30 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
+十二 25 14:24:30 INFO    -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+十二 25 14:24:30 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
+十二 25 14:24:30 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
+十二 25 14:24:30 DEBUG   -->  DU_APP : Completed sending Configs
+十二 25 14:24:30 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
+十二 25 14:24:30 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+十二 25 14:24:30 DEBUG  -->  MAC : SAP Not yet bound
+十二 25 14:24:30 DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
+十二 25 14:24:30 DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
+十二 25 14:24:30 DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
+十二 25 14:24:30 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
+十二 25 14:24:30 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+十二 25 14:24:30 DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
+十二 25 14:24:30 DEBUG   -->  DU_APP : MAC Sch Cfg sent
+十二 25 14:24:30 INFO  -->  MAC : Received Scheduler gen config at MAC
+十二 25 14:24:30 INFO   -->  SCH : Received scheduler gen config
+十二 25 14:24:30 DEBUG  -->  SCH : Entered SchInstCfg()
+十二 25 14:24:30 INFO   -->  SCH : Scheduler gen config done
+十二 25 14:24:30 DEBUG  -->  MAC : Sending Scheduler config confirm to DU APP
+十二 25 14:24:30 DEBUG   -->  DU_APP : Received SCH CFG CFM at DU APP
+十二 25 14:24:30 INFO   -->  DU_APP : Configuring all Layer is complete
+十二 25 14:24:30 CmInetSctpConnectx() Failed : error(115), port(0x9648),		   sockFd->fd(5)
+十二 25 14:24:30 
+十二 25 14:24:30 INFO   -->  SCTP : Polling started at DU
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [840]
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  SCTP : Assoc change notification receivedINFO   -->  Event : COMMUNICATION UP
+十二 25 14:24:30 DEBUG   -->  SCTP : Forwarding received message to duApp
+十二 25 14:24:30 CmInetSctpConnectx() Failed : error(115), port(0x8e45),		   sockFd->fd(6)
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  DU_APP : Sending EGTP config request
+十二 25 14:24:30 DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [842]
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  SCTP : Assoc change notification received
+十二 25 14:24:30 INFO   -->  F1AP : Building F1 Setup Request
+十二 25 14:24:30 INFO   -->  Event : COMMUNICATION UP
+十二 25 14:24:30 DEBUG   -->  EGTP : EGTP configuration successful
+十二 25 14:24:30 DEBUG   -->  SCTP : Forwarding received message to duApp<MeasurementTimingConfigurationRrc>
+十二 25 14:24:30     <criticalExtensions>
+十二 25 14:24:30         <c1>
+十二 25 14:24:30             <measTimingConf>
+十二 25 14:24:30                 <measTiming>
+十二 25 14:24:30                     <MeasTiming>
+十二 25 14:24:30                         <frequencyAndTiming>
+十二 25 14:24:30                             <carrierFreq>630432</carrierFreq>
+十二 25 14:24:30                             <ssbSubcarrierSpacing><kHz15/></ssbSubcarrierSpacing>
+十二 25 14:24:30                             <ssb-MeasurementTimingConfiguration>
+十二 25 14:24:30                                 <periodicityAndOffset>
+十二 25 14:24:30                                     <sf20>0</sf20>
+十二 25 14:24:30                                 </periodicityAndOffset>
+十二 25 14:24:30                                 <duration><sf5/></duration>
+十二 25 14:24:30                             </ssb-MeasurementTimingConfiguration>
+十二 25 14:24:30                         </frequencyAndTiming>
+十二 25 14:24:30                     </MeasTiming>
+十二 25 14:24:30                 </measTiming>
+十二 25 14:24:30             </measTimingConf>
+十二 25 14:24:30         </c1>
+十二 25 14:24:30     </criticalExtensions>
+十二 25 14:24:30 </MeasurementTimingConfigurationRrc>
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  F1AP : Created APER encoded buffer for Measurement Timing Configuration 
+十二 25 14:24:30 101133ffffffd4120<F1AP-PDU>
+十二 25 14:24:30     <initiatingMessage>
+十二 25 14:24:30         <procedureCode>1</procedureCode>
+十二 25 14:24:30         <criticality><reject/></criticality>
+十二 25 14:24:30         <value>
+十二 25 14:24:30             <F1SetupRequest>
+十二 25 14:24:30                 <protocolIEs>
+十二 25 14:24:30                     <F1SetupRequestIEs>
+十二 25 14:24:30                         <id>78</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <TransactionID>1</TransactionID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupRequestIEs>
+十二 25 14:24:30                     <F1SetupRequestIEs>
+十二 25 14:24:30                         <id>42</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <GNB-DU-ID>1</GNB-DU-ID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupRequestIEs>
+十二 25 14:24:30                     <F1SetupRequestIEs>
+十二 25 14:24:30                         <id>45</id>
+十二 25 14:24:30                         <criticality><ignore/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <GNB-DU-Name>ORAN OAM DU</GNB-DU-Name>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupRequestIEs>
+十二 25 14:24:30                     <F1SetupRequestIEs>
+十二 25 14:24:30                         <id>44</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <GNB-DU-Served-Cells-List>
+十二 25 14:24:30                                 <ProtocolIE-SingleContainer>
+十二 25 14:24:30                                     <id>43</id>
+十二 25 14:24:30                                     <criticality><reject/></criticality>
+十二 25 14:24:30                                     <value>
+十二 25 14:24:30                                         <GNB-DU-Served-Cells-Item>
+十二 25 14:24:30                                             <served-Cell-Information>
+十二 25 14:24:30                                                 <nRCGI>
+十二 25 14:24:30                                                     <pLMN-Identity>13 F1 84</pLMN-Identity>
+十二 25 14:24:30                                                     <nRCellIdentity>
+十二 25 14:24:30                                                         000000000000000000000000000000000001
+十二 25 14:24:30                                                     </nRCellIdentity>
+十二 25 14:24:30                                                 </nRCGI>
+十二 25 14:24:30                                                 <nRPCI>1</nRPCI>
+十二 25 14:24:30                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
+十二 25 14:24:30                                                 <servedPLMNs>
+十二 25 14:24:30                                                     <ServedPLMNs-Item>
+十二 25 14:24:30                                                         <pLMN-Identity>13 F1 84</pLMN-Identity>
+十二 25 14:24:30                                                         <iE-Extensions>
+十二 25 14:24:30                                                             <ServedPLMNs-ItemExtIEs>
+十二 25 14:24:30                                                                 <id>131</id>
+十二 25 14:24:30                                                                 <criticality><ignore/></criticality>
+十二 25 14:24:30                                                                 <extensionValue>
+十二 25 14:24:30                                                                     <SliceSupportList>
+十二 25 14:24:30                                                                         <SliceSupportItem>
+十二 25 14:24:30                                                                             <sNSSAI>
+十二 25 14:24:30                                                                                 <sST>01</sST>
+十二 25 14:24:30                                                                                 <sD>02 03 04</sD>
+十二 25 14:24:30                                                                             </sNSSAI>
+十二 25 14:24:30                                                                         </SliceSupportItem>
+十二 25 14:24:30                                                                         <SliceSupportItem>
+十二 25 14:24:30                                                                             <sNSSAI>
+十二 25 14:24:30                                                                                 <sST>05</sST>
+十二 25 14:24:30                                                                                 <sD>06 07 08</sD>
+十二 25 14:24:30                                                                             </sNSSAI>
+十二 25 14:24:30                                                                         </SliceSupportItem>
+十二 25 14:24:30                                                                     </SliceSupportList>
+十二 25 14:24:30                                                                 </extensionValue>
+十二 25 14:24:30                                                             </ServedPLMNs-ItemExtIEs>
+十二 25 14:24:30                                                         </iE-Extensions>
+十二 25 14:24:30                                                     </ServedPLMNs-Item>
+十二 25 14:24:30                                                 </servedPLMNs>
+十二 25 14:24:30                                                 <nR-Mode-Info>
+十二 25 14:24:30                                                     <fDD>
+十二 25 14:24:30                                                         <uL-NRFreqInfo>
+十二 25 14:24:30                                                             <nRARFCN>390000</nRARFCN>
+十二 25 14:24:30                                                             <freqBandListNr>
+十二 25 14:24:30                                                                 <FreqBandNrItem>
+十二 25 14:24:30                                                                     <freqBandIndicatorNr>1</freqBandIndicatorNr>
+十二 25 14:24:30                                                                     <supportedSULBandList>
+十二 25 14:24:30                                                                     </supportedSULBandList>
+十二 25 14:24:30                                                                 </FreqBandNrItem>
+十二 25 14:24:30                                                             </freqBandListNr>
+十二 25 14:24:30                                                         </uL-NRFreqInfo>
+十二 25 14:24:30                                                         <dL-NRFreqInfo>
+十二 25 14:24:30                                                             <nRARFCN>428000</nRARFCN>
+十二 25 14:24:30                                                             <freqBandListNr>
+十二 25 14:24:30                                                                 <FreqBandNrItem>
+十二 25 14:24:30                                                                     <freqBandIndicatorNr>1</freqBandIndicatorNr>
+十二 25 14:24:30                                                                     <supportedSULBandList>
+十二 25 14:24:30                                                                     </supportedSULBandList>
+十二 25 14:24:30                                                                 </FreqBandNrItem>
+十二 25 14:24:30                                                             </freqBandListNr>
+十二 25 14:24:30                                                         </dL-NRFreqInfo>
+十二 25 14:24:30                                                         <uL-Transmission-Bandwidth>
+十二 25 14:24:30                                                             <nRSCS><scs15/></nRSCS>
+十二 25 14:24:30                                                             <nRNRB><nrb106/></nRNRB>
+十二 25 14:24:30                                                         </uL-Transmission-Bandwidth>
+十二 25 14:24:30                                                         <dL-Transmission-Bandwidth>
+十二 25 14:24:30                                                             <nRSCS><scs15/></nRSCS>
+十二 25 14:24:30                                                             <nRNRB><nrb106/></nRNRB>
+十二 25 14:24:30                                                         </dL-Transmission-Bandwidth>
+十二 25 14:24:30                                                     </fDD>
+十二 25 14:24:30                                                 </nR-Mode-Info>
+十二 25 14:24:30                                                 <measurementTimingConfiguration>10 11 33 D4 01 02 00</measurementTimingConfiguration>
+十二 25 14:24:30                                             </served-Cell-Information>
+十二 25 14:24:30                                             <gNB-DU-System-Information>
+十二 25 14:24:30                                                 <mIB-message>00 00 0C</mIB-message>
+十二 25 14:24:30                                                 <sIB1-message>
+十二 25 14:24:30                                                     7C 03 28 A3 40 61 31 1A 40 00 80 00 00 80 00 00 
+十二 25 14:24:30                                                     00 0F 7F 00 00 20 28 12 10 00 03 00 00 00 26 CE 
+十二 25 14:24:30                                                     19 62 BB 00 36 04 02 00 0F 11 00 82 0D 18 08 50 
+十二 25 14:24:30                                                     50 9B 88 82 C1 00 00 00 9E AE 70 CB 16 A0 80 52 
+十二 25 14:24:30                                                     48 0A 67 CC 79 F8 00 27 18 88 51 50 8C 25 40 80 
+十二 25 14:24:30                                                     EC 04 16 03 E0 08 5E 00
+十二 25 14:24:30                                                 </sIB1-message>
+十二 25 14:24:30                                             </gNB-DU-System-Information>
+十二 25 14:24:30                                         </GNB-DU-Served-Cells-Item>
+十二 25 14:24:30                                     </value>
+十二 25 14:24:30                                 </ProtocolIE-SingleContainer>
+十二 25 14:24:30                             </GNB-DU-Served-Cells-List>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupRequestIEs>
+十二 25 14:24:30                     <F1SetupRequestIEs>
+十二 25 14:24:30                         <id>171</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RRC-Version>
+十二 25 14:24:30                                 <latest-RRC-Version>
+十二 25 14:24:30                                     000
+十二 25 14:24:30                                 </latest-RRC-Version>
+十二 25 14:24:30                                 <iE-Extensions>
+十二 25 14:24:30                                     <RRC-Version-ExtIEs>
+十二 25 14:24:30                                         <id>199</id>
+十二 25 14:24:30                                         <criticality><reject/></criticality>
+十二 25 14:24:30                                         <extensionValue>
+十二 25 14:24:30                                             <Latest-RRC-Version-Enhanced>0F 05 00</Latest-RRC-Version-Enhanced>
+十二 25 14:24:30                                         </extensionValue>
+十二 25 14:24:30                                     </RRC-Version-ExtIEs>
+十二 25 14:24:30                                 </iE-Extensions>
+十二 25 14:24:30                             </RRC-Version>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupRequestIEs>
+十二 25 14:24:30                 </protocolIEs>
+十二 25 14:24:30             </F1SetupRequest>
+十二 25 14:24:30         </value>
+十二 25 14:24:30     </initiatingMessage>
+十二 25 14:24:30 </F1AP-PDU>
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  F1AP : Created APER encoded buffer for F1SetupRequest
+十二 25 14:24:30 010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48013fffffff1ffffff8400001001001813fffffff1ffffff84000ffffff8340c01402023440ffffffa0678105fffffff3700000406ffffff87ffffffe0000070ffffffe07101133ffffffd41200300c587c328ffffffa34061311a400ffffff8000ffffff80000f7f00202812100300026ffffffce1962ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc1000ffffff9effffffae70ffffffcb16ffffffa0ffffff805248a67ffffffcc79fffffff802718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f50
+十二 25 14:24:30 DEBUG  --> SCTP : sending the message to CU
+十二 25 14:24:30 DEBUG   -->  DU_APP : EGTP configuraton complete
+十二 25 14:24:30 DEBUG   -->  DU_APP : Sending EGTP server open request
+十二 25 14:24:30 DEBUG  -->  EGTP : Received EGTP open server request
+十二 25 14:24:30 DEBUG   -->  EGTP : Socket [7] is open
+十二 25 14:24:30 DEBUG   -->  EGTP : Starting Socket Polling
+十二 25 14:24:30 DEBUG   -->  DU_APP : EGTP server opened successfully
+十二 25 14:24:30 DEBUG   -->  SCTP : Forwarding received message to duApp
+十二 25 14:24:30 INFO  -->  F1AP : Received F1AP message buffer
+十二 25 14:24:30 DEBUG   -->  F1AP : Received flat buffer to be decoded : 40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
+十二 25 14:24:30 <F1AP-PDU>
+十二 25 14:24:30     <successfulOutcome>
+十二 25 14:24:30         <procedureCode>1</procedureCode>
+十二 25 14:24:30         <criticality><reject/></criticality>
+十二 25 14:24:30         <value>
+十二 25 14:24:30             <F1SetupResponse>
+十二 25 14:24:30                 <protocolIEs>
+十二 25 14:24:30                     <F1SetupResponseIEs>
+十二 25 14:24:30                         <id>78</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <TransactionID>1</TransactionID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupResponseIEs>
+十二 25 14:24:30                     <F1SetupResponseIEs>
+十二 25 14:24:30                         <id>3</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <Cells-to-be-Activated-List>
+十二 25 14:24:30                                 <ProtocolIE-SingleContainer>
+十二 25 14:24:30                                     <id>4</id>
+十二 25 14:24:30                                     <criticality><ignore/></criticality>
+十二 25 14:24:30                                     <value>
+十二 25 14:24:30                                         <Cells-to-be-Activated-List-Item>
+十二 25 14:24:30                                             <nRCGI>
+十二 25 14:24:30                                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+十二 25 14:24:30                                                 <nRCellIdentity>
+十二 25 14:24:30                                                     000000000000000000000000000000000001
+十二 25 14:24:30                                                 </nRCellIdentity>
+十二 25 14:24:30                                             </nRCGI>
+十二 25 14:24:30                                         </Cells-to-be-Activated-List-Item>
+十二 25 14:24:30                                     </value>
+十二 25 14:24:30                                 </ProtocolIE-SingleContainer>
+十二 25 14:24:30                             </Cells-to-be-Activated-List>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupResponseIEs>
+十二 25 14:24:30                     <F1SetupResponseIEs>
+十二 25 14:24:30                         <id>170</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RRC-Version>
+十二 25 14:24:30                                 <latest-RRC-Version>
+十二 25 14:24:30                                     000
+十二 25 14:24:30                                 </latest-RRC-Version>
+十二 25 14:24:30                                 <iE-Extensions>
+十二 25 14:24:30                                     <RRC-Version-ExtIEs>
+十二 25 14:24:30                                         <id>199</id>
+十二 25 14:24:30                                         <criticality><reject/></criticality>
+十二 25 14:24:30                                         <extensionValue>
+十二 25 14:24:30                                             <Latest-RRC-Version-Enhanced>00 05 0F</Latest-RRC-Version-Enhanced>
+十二 25 14:24:30                                         </extensionValue>
+十二 25 14:24:30                                     </RRC-Version-ExtIEs>
+十二 25 14:24:30                                 </iE-Extensions>
+十二 25 14:24:30                             </RRC-Version>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </F1SetupResponseIEs>
+十二 25 14:24:30                 </protocolIEs>
+十二 25 14:24:30             </F1SetupResponse>
+十二 25 14:24:30         </value>
+十二 25 14:24:30     </successfulOutcome>
+十二 25 14:24:30 </F1AP-PDU>
+十二 25 14:24:30 
+十二 25 14:24:30 INFO   -->  F1AP : F1 Setup Response received
+十二 25 14:24:30 [DU UTILS] --> Gen Buffer
+十二 25 14:24:30 DEBUG  -->  DU-APP : MAC CELL config sent
+十二 25 14:24:30 INFO   -->  DU_APP : F1 Setup Response received
+十二 25 14:24:30 INFO   -->  E2AP : Building E2 Setup Request
+十二 25 14:24:30 <E2SM-KPM-RANfunction-Description>
+十二 25 14:24:30     <ranFunction-Name>
+十二 25 14:24:30         <ranFunction-ShortName>ORAN-E2SM-KPM</ranFunction-ShortName>
+十二 25 14:24:30         <ranFunction-E2SM-OID>1.3.6.1.4.1.53148.1.2.2.2</ranFunction-E2SM-OID>
+十二 25 14:24:30         <ranFunction-Description>KPM Monitor</ranFunction-Description>
+十二 25 14:24:30     </ranFunction-Name>
+十二 25 14:24:30     <ric-EventTriggerStyle-List>
+十二 25 14:24:30         <RIC-EventTriggerStyle-Item>
+十二 25 14:24:30             <ric-EventTriggerStyle-Type>1</ric-EventTriggerStyle-Type>
+十二 25 14:24:30             <ric-EventTriggerStyle-Name>Periodic Report</ric-EventTriggerStyle-Name>
+十二 25 14:24:30             <ric-EventTriggerFormat-Type>1</ric-EventTriggerFormat-Type>
+十二 25 14:24:30         </RIC-EventTriggerStyle-Item>
+十二 25 14:24:30     </ric-EventTriggerStyle-List>
+十二 25 14:24:30     <ric-ReportStyle-List>
+十二 25 14:24:30         <RIC-ReportStyle-Item>
+十二 25 14:24:30             <ric-ReportStyle-Type>1</ric-ReportStyle-Type>
+十二 25 14:24:30             <ric-ReportStyle-Name>E2 Node Measurement</ric-ReportStyle-Name>
+十二 25 14:24:30             <ric-ActionFormat-Type>1</ric-ActionFormat-Type>
+十二 25 14:24:30             <measInfo-Action-List>
+十二 25 14:24:30                 <MeasurementInfo-Action-Item>
+十二 25 14:24:30                     <measName>RRU.PrbTotDl</measName>
+十二 25 14:24:30                     <measID>1</measID>
+十二 25 14:24:30                 </MeasurementInfo-Action-Item>
+十二 25 14:24:30                 <MeasurementInfo-Action-Item>
+十二 25 14:24:30                     <measName>RRU.PrbTotUl</measName>
+十二 25 14:24:30                     <measID>2</measID>
+十二 25 14:24:30                 </MeasurementInfo-Action-Item>
+十二 25 14:24:30             </measInfo-Action-List>
+十二 25 14:24:30             <ric-IndicationHeaderFormat-Type>1</ric-IndicationHeaderFormat-Type>
+十二 25 14:24:30             <ric-IndicationMessageFormat-Type>1</ric-IndicationMessageFormat-Type>
+十二 25 14:24:30         </RIC-ReportStyle-Item>
+十二 25 14:24:30     </ric-ReportStyle-List>
+十二 25 14:24:30 </E2SM-KPM-RANfunction-Description>
+十二 25 14:24:30 
+十二 25 14:24:30 INFO  -->  SCH : Cell init completed for cellId:1
+十二 25 14:24:30 DEBUG   -->  F1AP : Created APER encoded buffer for RAN function definition 
+十二 25 14:24:30 60304f52414e2d4532534d2d4b504d0018312e332e
+十二 25 14:24:30 INFO  -->  MAC : Received SCH CELL config confirm at MAC
+十二 25 14:24:30 [NTUST] schCellCfgCfm->rsp = 0
+十二 25 14:24:30 [NTUST] pnf_state_lock->flag = 0
+十二 25 14:24:30 [Small Cell] The NFAPI flag is set to YES and waiting for PNF connection ...
+十二 25 14:24:30 362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111<E2AP-PDU>
+十二 25 14:24:30     <initiatingMessage>
+十二 25 14:24:30         <procedureCode>1</procedureCode>
+十二 25 14:24:30         <criticality><reject/></criticality>
+十二 25 14:24:30         <value>
+十二 25 14:24:30             <E2setupRequest>
+十二 25 14:24:30                 <protocolIEs>
+十二 25 14:24:30                     <E2setupRequestIEs>
+十二 25 14:24:30                         <id>49</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <TransactionID>0</TransactionID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupRequestIEs>
+十二 25 14:24:30                     <E2setupRequestIEs>
+十二 25 14:24:30                         <id>3</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <GlobalE2node-ID>
+十二 25 14:24:30                                 <gNB>
+十二 25 14:24:30                                     <global-gNB-ID>
+十二 25 14:24:30                                         <plmn-id>13 F1 84</plmn-id>
+十二 25 14:24:30                                         <gnb-id>
+十二 25 14:24:30                                             <gnb-ID>
+十二 25 14:24:30                                                 00000000000000000000000000000001
+十二 25 14:24:30                                             </gnb-ID>
+十二 25 14:24:30                                         </gnb-id>
+十二 25 14:24:30                                     </global-gNB-ID>
+十二 25 14:24:30                                     <gNB-DU-ID>1</gNB-DU-ID>
+十二 25 14:24:30                                 </gNB>
+十二 25 14:24:30                             </GlobalE2node-ID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupRequestIEs>
+十二 25 14:24:30                     <E2setupRequestIEs>
+十二 25 14:24:30                         <id>10</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RANfunctions-List>
+十二 25 14:24:30                                 <ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                                     <id>8</id>
+十二 25 14:24:30                                     <criticality><ignore/></criticality>
+十二 25 14:24:30                                     <value>
+十二 25 14:24:30                                         <RANfunction-Item>
+十二 25 14:24:30                                             <ranFunctionID>1</ranFunctionID>
+十二 25 14:24:30                                             <ranFunctionDefinition>
+十二 25 14:24:30                                                 60 30 4F 52 41 4E 2D 45 32 53 4D 2D 4B 50 4D 00 
+十二 25 14:24:30                                                 00 18 31 2E 33 2E 36 2E 31 2E 34 2E 31 2E 35 33 
+十二 25 14:24:30                                                 31 34 38 2E 31 2E 32 2E 32 2E 32 05 00 4B 50 4D 
+十二 25 14:24:30                                                 20 4D 6F 6E 69 74 6F 72 00 01 01 07 00 50 65 72 
+十二 25 14:24:30                                                 69 6F 64 69 63 20 52 65 70 6F 72 74 01 01 00 01 
+十二 25 14:24:30                                                 01 09 00 45 32 20 4E 6F 64 65 20 4D 65 61 73 75 
+十二 25 14:24:30                                                 72 65 6D 65 6E 74 01 01 00 01 41 60 52 52 55 2E 
+十二 25 14:24:30                                                 50 72 62 54 6F 74 44 6C 00 00 00 41 60 52 52 55 
+十二 25 14:24:30                                                 2E 50 72 62 54 6F 74 55 6C 00 00 01 01 01 01 01
+十二 25 14:24:30                                             </ranFunctionDefinition>
+十二 25 14:24:30                                             <ranFunctionRevision>0</ranFunctionRevision>
+十二 25 14:24:30                                             <ranFunctionOID>1.3.6.1.4.1.53148.1.2.2.2</ranFunctionOID>
+十二 25 14:24:30                                         </RANfunction-Item>
+十二 25 14:24:30                                     </value>
+十二 25 14:24:30                                 </ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                             </RANfunctions-List>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupRequestIEs>
+十二 25 14:24:30                     <E2setupRequestIEs>
+十二 25 14:24:30                         <id>50</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <E2nodeComponentConfigAddition-List>
+十二 25 14:24:30                                 <ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                                     <id>51</id>
+十二 25 14:24:30                                     <criticality><reject/></criticality>
+十二 25 14:24:30                                     <value>
+十二 25 14:24:30                                         <E2nodeComponentConfigAddition-Item>
+十二 25 14:24:30                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+十二 25 14:24:30                                             <e2nodeComponentID>
+十二 25 14:24:30                                                 <e2nodeComponentInterfaceTypeF1>
+十二 25 14:24:30                                                     <gNB-DU-ID>1</gNB-DU-ID>
+十二 25 14:24:30                                                 </e2nodeComponentInterfaceTypeF1>
+十二 25 14:24:30                                             </e2nodeComponentID>
+十二 25 14:24:30                                             <e2nodeComponentConfiguration>
+十二 25 14:24:30                                                 <e2nodeComponentRequestPart>
+十二 25 14:24:30                                                     00 01 00 80 D9 00 00 05 00 4E 00 02 00 01 00 2A 
+十二 25 14:24:30                                                     00 02 00 01 00 2D 40 0D 05 00 4F 52 41 4E 20 4F 
+十二 25 14:24:30                                                     41 4D 20 44 55 00 2C 00 80 A6 00 00 00 2B 00 80 
+十二 25 14:24:30                                                     9F 48 00 13 F1 84 00 00 00 00 10 00 01 00 00 01 
+十二 25 14:24:30                                                     08 13 F1 84 00 00 00 83 40 0C 00 01 40 20 02 03 
+十二 25 14:24:30                                                     04 40 A0 06 07 08 01 00 05 F3 70 00 00 00 00 40 
+十二 25 14:24:30                                                     06 87 E0 00 00 00 00 07 00 E0 07 10 11 33 D4 01 
+十二 25 14:24:30                                                     02 00 00 03 00 00 0C 58 7C 03 28 A3 40 61 31 1A 
+十二 25 14:24:30                                                     40 00 80 00 00 80 00 00 00 0F 7F 00 00 20 28 12 
+十二 25 14:24:30                                                     10 00 03 00 00 00 26 CE 19 62 BB 00 36 04 02 00 
+十二 25 14:24:30                                                     0F 11 00 82 0D 18 08 50 50 9B 88 82 C1 00 00 00 
+十二 25 14:24:30                                                     9E AE 70 CB 16 A0 80 52 48 0A 67 CC 79 F8 00 27 
+十二 25 14:24:30                                                     18 88 51 50 8C 25 40 80 EC 04 16 03 E0 08 5E 00 
+十二 25 14:24:30                                                     00 AB 00 0A 80 00 00 00 C7 00 03 0F 05 00
+十二 25 14:24:30                                                 </e2nodeComponentRequestPart>
+十二 25 14:24:30                                                 <e2nodeComponentResponsePart>
+十二 25 14:24:30                                                     40 01 00 2A 00 00 03 00 4E 00 02 00 01 00 03 00 
+十二 25 14:24:30                                                     0F 00 00 00 04 40 09 00 13 F1 84 00 00 00 00 10 
+十二 25 14:24:30                                                     00 AA 00 0A 80 00 00 00 C7 00 03 00 05 0F
+十二 25 14:24:30                                                 </e2nodeComponentResponsePart>
+十二 25 14:24:30                                             </e2nodeComponentConfiguration>
+十二 25 14:24:30                                         </E2nodeComponentConfigAddition-Item>
+十二 25 14:24:30                                     </value>
+十二 25 14:24:30                                 </ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                             </E2nodeComponentConfigAddition-List>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupRequestIEs>
+十二 25 14:24:30                 </protocolIEs>
+十二 25 14:24:30             </E2setupRequest>
+十二 25 14:24:30         </value>
+十二 25 14:24:30     </initiatingMessage>
+十二 25 14:24:30 </E2AP-PDU>
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
+十二 25 14:24:30 010ffffff81fffffff50040310200030b213fffffff1ffffff84500001010a0ffffff80ffffffb900840ffffff80ffffffb3001ffffff80ffffff9060304f52414e2d4532534d2d4b504d0018312e332e362e312e342e312e35333134382e312e322e322e32504b504d204d6f6e69746f7201170506572696f646963205265706f727411011904532204e6f6465204d6561737572656d656e74110141605252552e507262546f74446c00041605252552e507262546f74556c0011111000018312e332e362e312e342e312e35333134382e312e322e322e320320ffffff811a000330ffffff811319ffffff8010ffffff80ffffffde010ffffff80ffffffd900504e020102a020102d40d504f52414e204f414d20445502c0ffffff80ffffffa60002b0ffffff80ffffff9f48013fffffff1ffffff8400001001001813fffffff1ffffff84000ffffff8340c01402023440ffffffa0678105fffffff3700000406ffffff87ffffffe0000070ffffffe07101133ffffffd41200300c587c328ffffffa34061311a400ffffff8000ffffff80000f7f00202812100300026ffffffce1962ffffffbb036420f110ffffff82d1885050ffffff9bffffff88ffffff82ffffffc1000ffffff9effffffae70ffffffcb16ffffffa0ffffff805248a67ffffffcc79fffffff802718ffffff885150ffffff8c2540ffffff80ffffffec4163ffffffe085e00ffffffab0affffff80000ffffffc703f502e40102a00304e0201030f0004409013fffffff1ffffff840000100ffffffaa0affffff80000ffffffc70305f
+十二 25 14:24:30 DEBUG  -->  SCTP : sending the message to ric
+十二 25 14:24:30 DEBUG   -->  SCTP : Forwarding received message to duApp
+十二 25 14:24:30 DEBUG   -->  E2AP : Received E2AP message buffer
+十二 25 14:24:30 DEBUG   -->  E2AP : Received flat buffer to be decoded : 20103000403102000407013fffffff1ffffff840010090a006405001000340a000350419ffffff8010
+十二 25 14:24:30 <E2AP-PDU>
+十二 25 14:24:30     <successfulOutcome>
+十二 25 14:24:30         <procedureCode>1</procedureCode>
+十二 25 14:24:30         <criticality><reject/></criticality>
+十二 25 14:24:30         <value>
+十二 25 14:24:30             <E2setupResponse>
+十二 25 14:24:30                 <protocolIEs>
+十二 25 14:24:30                     <E2setupResponseIEs>
+十二 25 14:24:30                         <id>49</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <TransactionID>0</TransactionID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupResponseIEs>
+十二 25 14:24:30                     <E2setupResponseIEs>
+十二 25 14:24:30                         <id>4</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <GlobalRIC-ID>
+十二 25 14:24:30                                 <pLMN-Identity>13 F1 84</pLMN-Identity>
+十二 25 14:24:30                                 <ric-ID>
+十二 25 14:24:30                                     00000000000000000001
+十二 25 14:24:30                                 </ric-ID>
+十二 25 14:24:30                             </GlobalRIC-ID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupResponseIEs>
+十二 25 14:24:30                     <E2setupResponseIEs>
+十二 25 14:24:30                         <id>9</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RANfunctionsID-List>
+十二 25 14:24:30                                 <ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                                     <id>6</id>
+十二 25 14:24:30                                     <criticality><ignore/></criticality>
+十二 25 14:24:30                                     <value>
+十二 25 14:24:30                                         <RANfunctionID-Item>
+十二 25 14:24:30                                             <ranFunctionID>1</ranFunctionID>
+十二 25 14:24:30                                             <ranFunctionRevision>0</ranFunctionRevision>
+十二 25 14:24:30                                         </RANfunctionID-Item>
+十二 25 14:24:30                                     </value>
+十二 25 14:24:30                                 </ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                             </RANfunctionsID-List>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupResponseIEs>
+十二 25 14:24:30                     <E2setupResponseIEs>
+十二 25 14:24:30                         <id>52</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <E2nodeComponentConfigAdditionAck-List>
+十二 25 14:24:30                                 <ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                                     <id>53</id>
+十二 25 14:24:30                                     <criticality><reject/></criticality>
+十二 25 14:24:30                                     <value>
+十二 25 14:24:30                                         <E2nodeComponentConfigAdditionAck-Item>
+十二 25 14:24:30                                             <e2nodeComponentInterfaceType><f1/></e2nodeComponentInterfaceType>
+十二 25 14:24:30                                             <e2nodeComponentID>
+十二 25 14:24:30                                                 <e2nodeComponentInterfaceTypeF1>
+十二 25 14:24:30                                                     <gNB-DU-ID>1</gNB-DU-ID>
+十二 25 14:24:30                                                 </e2nodeComponentInterfaceTypeF1>
+十二 25 14:24:30                                             </e2nodeComponentID>
+十二 25 14:24:30                                             <e2nodeComponentConfigurationAck>
+十二 25 14:24:30                                                 <updateOutcome><success/></updateOutcome>
+十二 25 14:24:30                                             </e2nodeComponentConfigurationAck>
+十二 25 14:24:30                                         </E2nodeComponentConfigAdditionAck-Item>
+十二 25 14:24:30                                     </value>
+十二 25 14:24:30                                 </ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                             </E2nodeComponentConfigAdditionAck-List>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2setupResponseIEs>
+十二 25 14:24:30                 </protocolIEs>
+十二 25 14:24:30             </E2setupResponse>
+十二 25 14:24:30         </value>
+十二 25 14:24:30     </successfulOutcome>
+十二 25 14:24:30 </E2AP-PDU>
+十二 25 14:24:30 
+十二 25 14:24:30 INFO   -->  E2AP : E2 Setup Response received
+十二 25 14:24:30 ERROR  -->  E2AP : Invalid IE received in E2SetupRsp:9
+十二 25 14:24:30 INFO   -->  E2AP : Building E2 Node config update
+十二 25 14:24:30 <E2AP-PDU>
+十二 25 14:24:30     <initiatingMessage>
+十二 25 14:24:30         <procedureCode>10</procedureCode>
+十二 25 14:24:30         <criticality><reject/></criticality>
+十二 25 14:24:30         <value>
+十二 25 14:24:30             <E2nodeConfigurationUpdate>
+十二 25 14:24:30                 <protocolIEs>
+十二 25 14:24:30                     <E2nodeConfigurationUpdate-IEs>
+十二 25 14:24:30                         <id>49</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <TransactionID>1</TransactionID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </E2nodeConfigurationUpdate-IEs>
+十二 25 14:24:30                 </protocolIEs>
+十二 25 14:24:30             </E2nodeConfigurationUpdate>
+十二 25 14:24:30         </value>
+十二 25 14:24:30     </initiatingMessage>
+十二 25 14:24:30 </E2AP-PDU>
+十二 25 14:24:30 
+十二 25 14:24:30 DEBUG   -->  E2AP : Created APER encoded buffer for E2nodeConfigurationUpdate
+十二 25 14:24:30 0a090010310201
+十二 25 14:24:30 DEBUG  -->  SCTP : sending the message to ric
+十二 25 14:24:30 DEBUG   -->  SCTP : Forwarding received message to duApp
+十二 25 14:24:30 DEBUG   -->  E2AP : Received E2AP message buffer
+十二 25 14:24:30 DEBUG   -->  E2AP : Received flat buffer to be decoded : 0804a00301d050010105020101e0340383ffffffe70013402a4000260110010ffffffb05252552e507262546f74446c00ffffffb05252552e507262546f74556c0063
+十二 25 14:24:30 <E2AP-PDU>
+十二 25 14:24:30     <initiatingMessage>
+十二 25 14:24:30         <procedureCode>8</procedureCode>
+十二 25 14:24:30         <criticality><reject/></criticality>
+十二 25 14:24:30         <value>
+十二 25 14:24:30             <RICsubscriptionRequest>
+十二 25 14:24:30                 <protocolIEs>
+十二 25 14:24:30                     <RICsubscriptionRequest-IEs>
+十二 25 14:24:30                         <id>29</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RICrequestID>
+十二 25 14:24:30                                 <ricRequestorID>1</ricRequestorID>
+十二 25 14:24:30                                 <ricInstanceID>1</ricInstanceID>
+十二 25 14:24:30                             </RICrequestID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </RICsubscriptionRequest-IEs>
+十二 25 14:24:30                     <RICsubscriptionRequest-IEs>
+十二 25 14:24:30                         <id>5</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RANfunctionID>1</RANfunctionID>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </RICsubscriptionRequest-IEs>
+十二 25 14:24:30                     <RICsubscriptionRequest-IEs>
+十二 25 14:24:30                         <id>30</id>
+十二 25 14:24:30                         <criticality><reject/></criticality>
+十二 25 14:24:30                         <value>
+十二 25 14:24:30                             <RICsubscriptionDetails>
+十二 25 14:24:30                                 <ricEventTriggerDefinition>08 03 E7</ricEventTriggerDefinition>
+十二 25 14:24:30                                 <ricAction-ToBeSetup-List>
+十二 25 14:24:30                                     <ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                                         <id>19</id>
+十二 25 14:24:30                                         <criticality><ignore/></criticality>
+十二 25 14:24:30                                         <value>
+十二 25 14:24:30                                             <RICaction-ToBeSetup-Item>
+十二 25 14:24:30                                                 <ricActionID>0</ricActionID>
+十二 25 14:24:30                                                 <ricActionType><report/></ricActionType>
+十二 25 14:24:30                                                 <ricActionDefinition>
+十二 25 14:24:30                                                     00 01 01 00 00 01 00 B0 52 52 55 2E 50 72 62 54 
+十二 25 14:24:30                                                     6F 74 44 6C 00 00 B0 52 52 55 2E 50 72 62 54 6F 
+十二 25 14:24:30                                                     74 55 6C 00 00 63
+十二 25 14:24:30                                                 </ricActionDefinition>
+十二 25 14:24:30                                             </RICaction-ToBeSetup-Item>
+十二 25 14:24:30                                         </value>
+十二 25 14:24:30                                     </ProtocolIE-SingleContainerE2>
+十二 25 14:24:30                                 </ricAction-ToBeSetup-List>
+十二 25 14:24:30                             </RICsubscriptionDetails>
+十二 25 14:24:30                         </value>
+十二 25 14:24:30                     </RICsubscriptionRequest-IEs>
+十二 25 14:24:30                 </protocolIEs>
+十二 25 14:24:30             </RICsubscriptionRequest>
+十二 25 14:24:30         </value>
+十二 25 14:24:30     </initiatingMessage>
+十二 25 14:24:30 </E2AP-PDU>
+十二 25 14:24:30 
+十二 25 14:24:30 INFO   -->  E2AP : RIC Subscription request received
+十二 25 14:24:30 <E2SM-KPM-EventTriggerDefinition>
+十二 25 14:24:30     <eventDefinition-formats>
+十二 25 14:24:30         <eventDefinition-Format1>
+十二 25 14:24:30             <reportingPeriod>1000</reportingPeriod>
+十二 25 14:24:30         </eventDefinition-Format1>
+十二 25 14:24:30     </eventDefinition-formats>
+十二 25 14:24:30 </E2SM-KPM-EventTriggerDefinition>
+十二 25 14:24:30 
+十二 25 14:24:30 <E2SM-KPM-ActionDefinition>
+十二 25 14:24:30     <ric-Style-Type>1</ric-Style-Type>
+十二 25 14:24:30     <actionDefinition-formats>
+十二 25 14:24:30         <actionDefinition-Format1>
+十二 25 14:24:30             <measInfoList>
+十二 25 14:24:30                 <MeasurementInfoItem>
+十二 25 14:24:30                     <measType>
+十二 25 14:24:30                         <measName>RRU.PrbTotDl</measName>
+十二 25 14:24:30                     </measType>
+十二 25 14:24:30                     <labelInfoList>
+十二 25 14:24:30                     </labelInfoList>
+十二 25 14:24:30                 </MeasurementInfoItem>
+十二 25 14:24:30                 <MeasurementInfoItem>
+十二 25 14:24:30                     <measType>
+十二 25 14:24:30                         <measName>RRU.PrbTotUl</measName>
+十二 25 14:24:30                     </measType>
+十二 25 14:24:30                     <labelInfoList>
+十二 25 14:24:30                     </labelInfoList>
+十二 25 14:24:30                 </MeasurementInfoItem>
+十二 25 14:24:30             </measInfoList>
+十二 25 14:24:30             <granulPeriod>100</granulPeriod>
+十二 25 14:24:30         </actionDefinition-Format1>
+十二 25 14:24:30     </actionDefinition-formats>
+十二 25 14:24:30 </E2SM-KPM-ActionDefinition>
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> Accepting connection from PNF...
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> PNF connection (fd:8) accepted from 127.0.0.1:46188 
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f6ac4001120
+十二 25 14:24:45 
+十二 25 14:24:45 [INFO]   --> [VNF_Interface] 1 in nfapi_nr_vnf_start
+十二 25 14:24:45 INFO   --> [VNF] pnf connection indication idx:0
+十二 25 14:24:45 
+十二 25 14:24:45  MESSAGE SENT: 
+十二 25 14:24:45 00100000
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> VNF Association ID = 845
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> VNF Receiver window size = 106488
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> VNF In Streams = 5
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI] VNF Interface --> VNF Out Streams = 5
+十二 25 14:24:45 messageHeader.message_id = 257
+十二 25 14:24:45 
+十二 25 14:24:45  Read NR message unpack:  00  00  01  01  00  46  00  00  00  02  10  00  00  21  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  10  01  00  15  00  01  00  00  00  02  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00 
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] pnf param response idx:0 error:0
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] (PHY:0) phy_config_idx:0
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] (PHY:0) (RF0) 0
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] (PHY:0) (RF1) 0
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> Hard coded num phy rf to 2
+十二 25 14:24:45 
+十二 25 14:24:45  MESSAGE SENT: 
+十二 25 14:24:45 00120210001630140201000000000000
+十二 25 14:24:45 messageHeader.message_id = 259
+十二 25 14:24:45 
+十二 25 14:24:45  Read NR message unpack:  00  00  01  03  00  01  00  00  00 
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:1]]
+十二 25 14:24:45 
+十二 25 14:24:45  MESSAGE SENT: 
+十二 25 14:24:45 00140000
+十二 25 14:24:45 messageHeader.message_id = 261
+十二 25 14:24:45 
+十二 25 14:24:45  Read NR message unpack:  00  00  01  05  00  04  00  00  00  00  00  00 
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] pnf start response idx:0 config:0x55e1ce203f00 user_data:0x7f6b9c474010 p7_vnf[config:0x55e1ce203db0 thread_started:0]
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
+十二 25 14:24:45 
+十二 25 14:24:45  MESSAGE SENT: 
+十二 25 14:24:45 01000000
+十二 25 14:24:45 Calling sched_setscheduler(79)
+十二 25 14:24:45 messageHeader.message_id = 1
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI VNF]  ->  Received PARAM_RESPONSE
+十二 25 14:24:45  Read NR message unpack:  00  01  00  01  01  fa  00  00  00  3e  00  01  00  02  00  00  00  00  00  02  00  02  00  00  00  00  00  03  00  01  00  00  00  00  00  04  00  01  00  00  00  00  00  05  00  02  00  00  00  00  00  06  00  01  00  00  00  00  00  07  00  02  00  00  00  00  00  08  00  02  00  00  00  00  00  09  00  01  00  00  00  00  00  0a  00  02  00  00  00  00  00  0b  00  01  00  00  00  00  00  0c  00  01  00  00  00  00  00  0d  00  01  00  00  00  00  00  0e  00  01  00  00  00  00  00  0f  00  01  00  00  00  00  00  10  00  01  00  00  00  00  00  11  00  01  00  00  00  00  00  12  00  01  00  00  00  00  00  13  00  01  00  00  00  00  00  14  00  01  00  00  00  00  00  15  00  01  00  00  00  00  00  16  00  01  00  00  00  00  00  17  00  01  00  00  00  00  00  19  00  01  00  00  00  00  00  1b  00  01  00  00  00  00  00  1d  00  01  00  00  00  00  00  1e  00  01  00  00  00  00  00  1f  00  01  00  00  00  00  00  20  00  01  00  00  00  00  00  21  00  01  00  00  00  00  00  22  00  01  00  00  00  00  00  23  00  01  00  00  00  00  00  24  00  01  00  00  00  00  00  25  00  01  00  00  00  00  00  26  00  01  00  00  00  00  00  27  00  01  00  00  00  00  00  28  00  01  00  00  00  00  00  29  00  01  00  00  00  00  00  2a  00  01  00  00  00  00  00  2b  00  01  00  00  00  00  00  2c  00  01  00  00  00  00  00  2d  00  01  00  00  00  00  00  2e  00  01  00  00  00  00  00  2f  00  01  00  00  00  00  00  30  00  01  00  00  00  00  00  31  00  01  00  00  00  00  00  32  00  01  00  00  00  00  00  33  00  01  00  00  00  00  00  34  00  01  00  00  00  00  00  35  00  01  00  00  00  00  00  36  00  01  00  00  00  00  01  00  00  04  00  00  00  00  01  01  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  02  00  02  00  00  00  00  01  03  00  04  7f  00  00  02  01  04  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  05  00  02  5a  c3  00  00  01  1e  00  01  00  00  00  00  01  1f  00  01  00  00  00  00  01  20  00  01  00  00  00  00 
+十二 25 14:24:45 
+十二 25 14:24:45  Read message unpack_param_response:  00  3e  00  01  00  02  00  00  00  00  00  02  00  02  00  00  00  00  00  03  00  01  00  00  00  00  00  04  00  01  00  00  00  00  00  05  00  02  00  00  00  00  00  06  00  01  00  00  00  00  00  07  00  02  00  00  00  00  00  08  00  02  00  00  00  00  00  09  00  01  00  00  00  00  00  0a  00  02  00  00  00  00  00  0b  00  01  00  00  00  00  00  0c  00  01  00  00  00  00  00  0d  00  01  00  00  00  00  00  0e  00  01  00  00  00  00  00  0f  00  01  00  00  00  00  00  10  00  01  00  00  00  00  00  11  00  01  00  00  00  00  00  12  00  01  00  00  00  00  00  13  00  01  00  00  00  00  00  14  00  01  00  00  00  00  00  15  00  01  00  00  00  00  00  16  00  01  00  00  00  00  00  17  00  01  00  00  00  00  00  19  00  01  00  00  00  00  00  1b  00  01  00  00  00  00  00  1d  00  01  00  00  00  00  00  1e  00  01  00  00  00  00  00  1f  00  01  00  00  00  00  00  20  00  01  00  00  00  00  00  21  00  01  00  00  00  00  00  22  00  01  00  00  00  00  00  23  00  01  00  00  00  00  00  24  00  01  00  00  00  00  00  25  00  01  00  00  00  00  00  26  00  01  00  00  00  00  00  27  00  01  00  00  00  00  00  28  00  01  00  00  00  00  00  29  00  01  00  00  00  00  00  2a  00  01  00  00  00  00  00  2b  00  01  00  00  00  00  00  2c  00  01  00  00  00  00  00  2d  00  01  00  00  00  00  00  2e  00  01  00  00  00  00  00  2f  00  01  00  00  00  00  00  30  00  01  00  00  00  00  00  31  00  01  00  00  00  00  00  32  00  01  00  00  00  00  00  33  00  01  00  00  00  00  00  34  00  01  00  00  00  00  00  35  00  01  00  00  00  00  00  36  00  01  00  00  00  00  01  00  00  04  00  00  00  00  01  01  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  02  00  02  00  00  00  00  01  03  00  04  7f  00  00  02  01  04  00  10  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  01  05  00  02  5a  c3  00  00  01  1e  00  01  00  00  00  00  01  1f  00  01  00  00  00  00  01  20  00  01  00  00  00  00 
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
+十二 25 14:24:45 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+十二 25 14:24:45 [NFAPI VNF]  ->  PNF P7 Port: 23235
+十二 25 14:24:45 [NFAPI VNF]  ->  Invoke the nr_param_resp
+十二 25 14:24:45 [NFAPI VNF]  ->  The PNF has been running, set FALG to 0
+十二 25 14:24:45 [NFAPI VNF]  ->  The PNF has been running, set FALG to 1
+十二 25 14:24:45 INFO  -->  LWR_MAC : phyState :  0 in msgType : 2
+十二 25 14:24:45 INFO  -->  NFAPI : pnfState :  0
+十二 25 14:24:45 lwr_mac_procConfigReqEvt
+十二 25 14:24:45 
+十二 25 14:24:45 INFO  -->  LWR_MAC: Received EVENT[2] at STATE[0]
+十二 25 14:24:45 DEBUG  -->  LWR_MAC: MIB PDU 600
+十二 25 14:24:45 123
+十二 25 14:24:45 [DEBUG] -> intgr_fapi_config being called
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] Received NFAPI_PARAM_RESP idx:0 phy_id:1
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] 0.1 pnf p7 127.0.0.2:23235 timing 30 10 0 10
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] Send NFAPI_CONFIG_REQUEST
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] Local_port:46021
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] Local_addr:127.0.0.1
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> 
+十二 25 14:24:45 [VNF]Timing window tag : 286 Timing window:30
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI P5]  ->  Number of TLVs in ORAN_OAI 24
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1001 with value 20 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1002 with value 2140000 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1005 with value 2 and length 2
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1006 with value 20 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1007 with value 1950000 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x100a with value 2 and length 2
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x100c with value 1 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x100d with value 0 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x100e with value 0 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1010 with value 0 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1012 with value 0 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1013 with value 0 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1014 with value 1 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1029 with value 16 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1015 with value 0 and length 2
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1017 with value 0 and length 2
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1018 with value 4 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x101b with value 1 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x101d with value 24 and length 2
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x101f with value 2 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1020 with value 0 and length 1
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1021 with value 1536 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
+十二 25 14:24:45 [NFAPI P5]  ->  TAG 0x1023 with value 0 and length 1
+十二 25 14:24:45  MESSAGE SENT: 
+十二 25 14:24:45 010222240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022211111111111111111111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000222111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002221111111111111111111111111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000022211111111111111111111111111111111331610400020162040321679616502021660400020167040291934816100202161201116130101614040000161601016180101619010162001116410116162102001623020016240141627011162902024163101216320101633040060163404000116350101004127001120219717913101313201101300130
+十二 25 14:24:45 [VNF] Sent NFAPI_VNF_CONFIG_REQ num_tlv:6
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] Creating VNF NFAPI P7 start thread vnf_nr_p7_thread_start
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> vnf_nr_p7_start_thread()
+十二 25 14:24:45 
+十二 25 14:24:45 [NFAPI P7] ->  Initialising VNF P7 port:50611
+十二 25 14:24:45 [NFAPI P7] ->  VNF P7 socket created...
+十二 25 14:24:45 [NFAPI P7] ->  VNF P7 setsockopt succeeded...
+十二 25 14:24:45 [NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
+十二 25 14:24:45 [NFAPI P7] ->  VNF P7 bind succeeded...
+十二 25 14:24:45 [DEBUG]	vnf_p7->terminate 0
+十二 25 14:24:45 [DEBUG]	Slot indication: 0
+十二 25 14:24:45 1014129570674 [W]  142575360: vnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+十二 25 14:24:45 1014129570677 [W]  142575360: vnf_nr_read_dispatch_message: Disconnected socket
+十二 25 14:24:45 
+十二 25 14:24:45 INFO   --> [VNF] pnf disconnection indication idx:0
